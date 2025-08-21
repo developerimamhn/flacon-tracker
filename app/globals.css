@@ -556,18 +556,42 @@ body {
     border-radius: 0px 0px 31.333px 31.333px;
 background: linear-gradient(180deg, #010214 0%, #010214 16.55%, #4E27BC 63.32%, #A68AF9 100%);
   }
+  .navbg {
+   display: flex;
+
+padding: 16px;
+align-items: center;
+border-radius: 20px;
+border: 1.5px solid rgba(187, 187, 187, 0.10);
+background: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(5px);
+margin-top: 40px;
+
+  }
+
   .buttonaudit {
     border-radius: 8px;
     background: #E8423A;
+<<<<<<< HEAD
     color: #FFF;
     font-family: "Neue Power Trial";
+=======
+    
+>>>>>>> ecf72cb70e71b8265dedbbb8aa1e46acd6110770
     font-style: normal;
-    font-weight: 800;
-    line-height: 130%; /* 26px */
+    
+    
     position: relative; /* For pseudo-elements */
     overflow: hidden; /* Contain gradient and glow effects */
     z-index: 1;
     transition: transform 0.2s ease; /* Fallback for non-GSAP browsers */
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
 /* Gradient overlay for hover */
@@ -954,11 +978,16 @@ background: linear-gradient(180deg, #010214 0%, #010214 16.55%, #4E27BC 63.32%, 
     font-family: "Plain";
   }
   .TradeLikeAProWithXonicCapital{
-    color: #9226E0;
-    font-family: "Neue Power Trial";
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%; /* 180px */
+   width: 834.478px;
+   color: rgba(255, 255, 255, 0.40);
+    text-shadow: 0 3.593px 7.725px rgba(0, 0, 0, 0.25);
+   font-family: Tomorrow;
+    font-size: 76.352px;
+     font-style: normal;
+    font-weight: 400;
+   line-height: 125%; /* 95.44px */
+    text-transform: uppercase;
+
   }
   .gradientuser{
     background: linear-gradient(0deg, #5C2FDA 4.39%, #8D70EF 22.63%);
@@ -974,6 +1003,19 @@ background: linear-gradient(180deg, #010214 0%, #010214 16.55%, #4E27BC 63.32%, 
     font-weight: 500;
     line-height: 120%; /* 67.68px */
   }
+
+  .befirst{
+    color: rgba(255, 255, 255, 0.90);
+   font-family: Tomorrow;
+  
+font-style: normal;
+font-weight: 400;
+line-height: 125%;
+text-transform: uppercase;
+
+    
+  }
+
   .custom-select-wrapper {
     position: relative;
     display: inline-block;
@@ -1068,4 +1110,129 @@ background: linear-gradient(180deg, #010214 0%, #010214 16.55%, #4E27BC 63.32%, 
   .backgroundheader{
     background: linear-gradient(180deg, #141024 0%, #070510 50%);
   }
+}
+
+.backgroundcard { 
+ border-radius: 20px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: rgba(6, 6, 6, 0.20);
+backdrop-filter: blur(66.80000305175781px);
+}
+
+.backgroundcard:hover {
+  border: 1px solid rgba(67, 46, 153, 0.3);
+  background: rgba(6, 6, 6, 0.30);
+}
+
+.falconfont {
+ color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+
+
+opacity: 0.7;
+
+}
+
+.getstarted {
+ display: flex;
+padding: 16px 16px 16px 32px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+border-radius: 16px;
+border: 1.643px solid rgba(255, 255, 255, 0.15);
+background: linear-gradient(145deg, #303030 -5.34%, rgba(20, 20, 20, 0.40) 15.37%, rgba(15, 15, 15, 0.10) 26.28%, rgba(14, 14, 14, 0.30) 77.97%, rgba(19, 19, 19, 0.10) 84.08%, #303030 104.31%);
+box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.15) inset;
+}
+
+.getstratxt {
+ color: #FFF;
+text-align: right;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 32px */
+text-transform: capitalize;
+}
+
+.scrolldown{
+opacity: 0.7;
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 109%;
+
+
+}
+
+.p1h1 {
+  color: #FFF;
+text-align: center;
+text-shadow: 0 4px 8.6px rgba(0, 0, 0, 0.25);
+font-family: Tomorrow;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 128%; /* 76.8px */
+text-transform: uppercase;
+}
+
+.p1br {
+ color: rgba(255, 255, 255, 0.50);
+font-family: Tomorrow;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 128%;
+text-transform: uppercase;
+}
+
+.p1h2 {
+ color: #BBB;
+text-align: center;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 35.2px */
+text-transform: capitalize;
+align-self: stretch;
+}
+
+.backfroiu{
+
+padding: 18px 24px;
+
+gap: 10px;
+border-radius: 24px;
+border: 1.643px solid rgba(255, 255, 255, 0.15);
+background: linear-gradient(145deg, #303030 -5.34%, #141414 15.37%, #0F0F0F 26.28%, #0E0E0E 77.97%, #131313 84.08%, #303030 104.31%);
+box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.15) inset;
+}
+
+.multichain {
+ color: #FFF;
+text-shadow: 0 4px 8.6px rgba(0, 0, 0, 0.25);
+font-family: Tomorrow;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 128%; /* 30.72px */
+text-transform: uppercase;
+}
+
+.tracktoken {
+ color: #BBB;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+text-transform: capitalize;
 }
