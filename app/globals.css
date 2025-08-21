@@ -71,6 +71,12 @@ body {
 
 
 @layer utilities{
+  .positasdeinasa{
+    border-radius: 20px;
+    border: 1.5px solid rgba(187, 187, 187, 0.10);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+  }
   .divisiolast{
     color: #F3E2FF;
     text-align: center;
@@ -551,7 +557,8 @@ body {
 background: linear-gradient(180deg, #010214 0%, #010214 16.55%, #4E27BC 63.32%, #A68AF9 100%);
   }
   .buttonaudit {
-    background: var(--gfxdsdgh, #1E53FF);
+    border-radius: 8px;
+    background: #E8423A;
     color: #FFF;
     font-family: "Neue Power Trial";
     font-style: normal;
@@ -1006,7 +1013,7 @@ background: linear-gradient(180deg, #010214 0%, #010214 16.55%, #4E27BC 63.32%, 
   
 
   .header.scrolled {
-    background: #FBC4C5;
+    background: #1f1f1f;
     font-size: #fff;
     /* border-image-source: linear-gradient(90deg, #010214 0%, rgba(55, 57, 82, 0.6) 50.16%, #010214 100%); */
     /* border-bottom-width: 0.78px; */
