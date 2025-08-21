@@ -1165,7 +1165,7 @@ line-height: 109%;
 text-align: center;
 text-shadow: 0 4px 8.6px rgba(0, 0, 0, 0.25);
 font-family: Tomorrow;
-font-size: 60px;
+
 font-style: normal;
 font-weight: 400;
 line-height: 128%; /* 76.8px */
@@ -1175,7 +1175,6 @@ text-transform: uppercase;
 .p1br {
  color: rgba(255, 255, 255, 0.50);
 font-family: Tomorrow;
-font-size: 60px;
 font-style: normal;
 font-weight: 400;
 line-height: 128%;
@@ -1186,7 +1185,6 @@ text-transform: uppercase;
  color: #BBB;
 text-align: center;
 font-family: Inter;
-font-size: 22px;
 font-style: normal;
 font-weight: 400;
 line-height: 160%; /* 35.2px */
@@ -1224,4 +1222,143 @@ font-style: normal;
 font-weight: 400;
 line-height: 160%; /* 25.6px */
 text-transform: capitalize;
+}
+
+.p2fltracker{
+  color: #999;
+text-align: center;
+text-shadow: 0 4px 8.6px rgba(0, 0, 0, 0.25);
+font-family: Tomorrow;
+
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 78px */
+text-transform: uppercase;
+}
+
+.p2howit{
+  color: #FFF;
+font-family: Tomorrow;
+
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+text-transform: uppercase;
+}
+
+.p2cardd{
+  width: 393.853px;
+height: 472.371px;
+flex-shrink: 0;
+border-radius: 31.341px;
+border: 1.567px solid rgba(255, 255, 255, 0.15);
+background: linear-gradient(145deg, #303030 -5.34%, #141414 15.37%, #0F0F0F 26.28%, #0E0E0E 77.97%, #131313 84.08%, #303030 104.31%);
+box-shadow: 0 0 19.014px 0 rgba(255, 255, 255, 0.15) inset;
+}
+
+.connectto{
+
+  color: #FFF;
+font-family: Tomorrow;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 44.8px */
+text-transform: capitalize;
+
+}
+
+.addfa{
+
+  color: #BBB;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 32px */
+text-transform: capitalize;
+}
+
+.p3roadmp{
+  color: #FFF;
+text-align: center;
+text-shadow: 0 4px 8.6px rgba(0, 0, 0, 0.25);
+font-family: Tomorrow;
+
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 78px */
+text-transform: uppercase;
+}
+
+.q42021{
+  color: #FFF;
+leading-trim: both;
+text-edge: cap;
+font-family: Tomorrow;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 39px */
+text-transform: uppercase;
+}
+
+.expantion{
+  color: #BBB;
+leading-trim: both;
+text-edge: cap;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 35.2px */
+text-transform: capitalize;
+opacity: 0.7;
+}
+
+.addingsu{
+  color: #BBB;
+leading-trim: both;
+text-edge: cap;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+text-transform: capitalize;
+}
+
+.p3card{
+  
+height: 231.73px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1.643px solid rgba(255, 255, 255, 0.15);
+background: linear-gradient(145deg, #303030 -5.34%, #141414 15.37%, #0F0F0F 26.28%, #0E0E0E 77.97%, #131313 84.08%, #303030 104.31%);
+box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.15) inset;
+}
+
+.footrbkgrnd{
+ 
+height: 316.039px;
+flex-shrink: 0;
+border-top: 1.5px solid rgba(187, 187, 187, 0.07);
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 3.88%, rgba(0, 0, 0, 0.05) 100%);
+backdrop-filter: blur(10.550000190734863px);
+}
+
+.linefooter {
+ 
+height: 1px;
+background: rgba(255, 255, 255, 0.10);
+}
+
+.mailboxx{
+  width: 332.781px;
+height: 57.566px;
+flex-shrink: 0;
+border-radius: 13px;
+border: 1.643px solid rgba(255, 255, 255, 0.05);
+background: linear-gradient(145deg, rgba(48, 48, 48, 0.60) -5.34%, rgba(20, 20, 20, 0.60) 15.37%, rgba(15, 15, 15, 0.60) 26.28%, rgba(14, 14, 14, 0.60) 77.97%, rgba(19, 19, 19, 0.60) 84.08%, rgba(48, 48, 48, 0.60) 104.31%);
+box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.10) inset;
 }

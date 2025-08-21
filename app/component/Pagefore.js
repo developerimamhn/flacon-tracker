@@ -164,29 +164,9 @@ const Pageone = () => {
 
     
     return (
-        <div id='Roadmap' ref={wrapperRef} className='relative overflow-hidden py-[50px] sm:py-[60px] md:py-[70px] lg:py-[90px] xl:py-[120px] 2xl:py-[150px]'>
-            <div className='relative bg-[#FBC4C5]'>
-              <div className="container mx-auto px-6 sm:px-0">
-                <div className="grid grid-cols-12 gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[31px]">
-                  {items.map((item, index) => (
-                    <div
-                      key={item.id}
-                      ref={(el) => (itemRefs.current[index] = el)}
-                      className="col-span-12 md:col-span-6 lg:col-span-3"
-                    >
-                      <div className="flex justify-center items-center">
-                        <Image
-                          src={item.image}
-                          alt={item.alt}
-                          className='w-full'
-                        />
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-        </div>
+       <div>
+        
+       </div>
     );
 };
 

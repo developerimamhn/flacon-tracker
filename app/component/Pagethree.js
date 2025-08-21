@@ -212,29 +212,60 @@ const Pagethree = () => {
 
     
     return (
-        <div id='Blog' className='relative py-[40px] sm:py-[50px] md:py-[60px] lg:py-[90px] xl:py-[120px] 2xl:py-[150px] bg-[#9226E0]'>
-            <div  className='relative container mx-auto'>
-              <div className='grid grid-cols-12'>
-              <h2 className='selfcountopdia text-[28px] sm:text-[36px] md:text-[40px] lg:text-[48px] xl:text-[64px] 2xl:text-[96px] relative z-10 sm:text-left text-center sm:col-start-5 col-span-12 sm:col-span-7'>The security and <br/>
-              support 
-                  <svg xmlns="http://www.w3.org/2000/svg" className='w-2/7 2xl:w-2/7 absolute bottom-[20%] 2xl:-bottom-1  left-0 z-[-2] md:block hidden ' viewBox="0 0 332 138" fill="none">
-                  <path d="M148.334 13.8798C45.2721 35.2154 -5.28003 65.287 0.655468 101.831C1.10805 104.526 1.90707 107.794 2.47438 109.084C8.36909 122.413 23.7291 131.256 47.6096 135.057C72.7766 139.062 105.226 137.813 143.957 131.31C195.159 122.712 246.185 106.503 284.051 86.7914C289.665 83.8332 292.479 82.6889 299.267 80.4573C307.664 77.6618 324.946 71.1067 327.05 69.9136L328.193 69.2598L327.016 69.7094C318.521 72.8154 311.886 75.0632 306.4 76.6982C302.731 77.8181 299.25 78.8645 298.686 79.0852C296.611 79.8535 297.49 78.8241 300.486 76.9773C307.871 72.3359 315.923 65.6931 321.203 59.8515C327.028 53.3726 331.089 45.6362 331.743 39.6894C332.114 36.226 331.174 30.6308 329.762 27.8866C324.236 17.0566 306.785 10.0768 280.521 8.18788C258.77 6.63285 235.128 7.83101 201.405 12.2336L193.555 13.2156L196.737 12.1775C202.091 10.3547 218.305 5.49065 227.536 2.89093C232.319 1.54202 236.371 0.315798 236.503 0.209578C236.664 -0.0273375 231.41 0.602866 212.147 3.12327C199.746 4.74354 160.487 11.3774 148.334 13.8798ZM106.099 33.8206C83.1924 41.4879 71.8628 45.9097 57.7589 52.6029C39.9983 61.0859 25.1428 70.7608 17.4076 78.9882C16.5148 79.9359 15.6296 80.6304 15.4141 80.5406C15.2405 80.4018 16.8875 78.2777 19.0156 75.7368C32.5921 59.9359 60.216 46.3535 104.812 33.6167C108.398 32.5948 109.323 32.7334 106.099 33.8206ZM215.415 18.1115C248.949 14.3706 276.102 14.3887 295.412 18.1171C306.746 20.2872 315.412 24.1652 319.241 28.7712C324.679 35.2067 323.057 44.3393 314.727 54.0943C305.727 64.6337 288.836 75.91 266.89 86.0195C261.082 88.7164 259.612 89.215 253.39 90.6378C224.99 97.2119 208.216 100.532 176.062 105.931C147.952 110.651 135.084 112.475 114.403 114.604C52.6179 121.031 15.6594 116.906 13.3203 103.274C11.5512 92.737 27.6054 76.4781 52.8422 63.2965C82.767 47.6062 120.781 35.3446 171.473 24.9016C178.301 23.5032 207.301 19.0119 215.415 18.1115ZM38.8726 123.297C49.9785 125.001 75.5453 124.824 99.2521 122.817C127.76 120.466 174.436 113.846 193.932 109.439C199.821 108.114 219.945 103.266 225.848 101.729C231.083 100.388 228.659 101.467 220.103 104.205C204.18 109.314 188.614 113.565 171.011 117.613C159.964 120.14 127.177 125.645 117.177 126.652C90.6725 129.296 69.8017 129.399 53.125 127.034C45.8368 125.991 34.4065 123.249 36.1116 122.962C36.2577 122.938 37.4887 123.109 38.8726 123.297Z" fill="#DFFD0A"/>
-                  </svg>
-                  <p className='dontmissing text-[15px] sm:text-[16px] md:text-[20px] lg:text-[24px] xl:text-[30px] 2xl:text-[35px] sm:text-left text-center absolute  2xl:bottom-5 left-0 xl:left-auto xl:right-24 z-[-2] 2xl:block hidden'>You didn&apos;t know you <br className=" md:block hidden"/> were missing</p>
-                  <p className='dontmissing text-[15px] sm:text-[16px] md:text-[20px] lg:text-[24px] xl:text-[30px] 2xl:text-[35px] sm:text-left text-center 2xl:hidden block mt-3.5'>You didn&apos;t know you <br className=" md:hidden hidden"/> were missing</p>
-                  </h2>
-                  
-              </div>
-              <div className='grid grid-cols-12 gap-[1px] sm:gap-[32px] md:gap-[36px] lg:gap-[40px] xl:gap-[48px] 2xl:gap-[50px] pt-[36px] sm:pt-[40px] md:pt-[48px] lg:pt-[64px] xl:pt-[96px] 2xl:pt-[110px]'>
-                  {features.map((feature, index) => (
-                    <div key={index} ref={(el) => (itemRefs.current[index] = el)} className="flex flex-col sm:items-start items-center text-center sm:text-start p-4 col-span-12 sm:col-span-6 md:col-span-3">
-                      <div className="pb-[13px] sm:pb-[16px] md:pb-[20px] lg:pb-[24px] xl:pb-[30px] 2xl:pb-[36px]">{feature.icon}</div>
-                      <h3 className="text-lg font-bold mb-2 featuretitle text-[18px] sm:text-[16px] md:text-[20px] lg:text-[24px] xl:text-[28px] 2xl:text-[32px] pb-[0px] sm:pb-[11px] md:pb-[14px] lg:pb-[15px] xl:pb-[16px] 2xl:pb-[20px]">{feature.title}</h3>
-                      <p className="featuredescription text-[14px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] sm:px-0 px-[10%]">{feature.description}</p>
-                    </div>
-                  ))}
-              </div>
-            </div>
+        <div className='h-[1728px] w-full'>
+          <h1 className='p3roadmp text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>Roadmap</h1>
+
+          <div className='relative'>
+            <div className="p3card p-7 absolute top-0 left-40 ">
+          <h3 className="q42021">Q4 2024</h3>
+          <p className="expantion mt-[12px]">Expansion of Multi-Chain Support</p>
+          <p className="addingsu mt-[12px]">Adding support for additional <br/> blockchains to enhance tracking <br/>capabilities</p>
+        </div>
+
+         <div className="p3card p-7 absolute top-0 right-160 ">
+          <h3 className="q42021">Q1 2025</h3>
+          <p className="expantion mt-[12px]">Enhanced UI Interface</p>
+          <p className="addingsu mt-[12px]">Revamping the user interface for a <br/> more intuitive and streamlined <br/> experience.</p>
+        </div>
+
+         <div className="p3card p-7 absolute top-0 right-40 ">
+          <h3 className="q42021">Q2 2025</h3>
+          <p className="expantion mt-[12px]">Reduced Alert Response Time</p>
+          <p className="addingsu mt-[12px]">Optimizing backend processes to <br/> ensure faster delivery of alerts.</p>
+        </div>
+
+        
+
+
+
+
+          </div>
+
+        
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="1492" height="926" viewBox="0 0 1492 926" fill="none">
+  <path d="M929.757 379.715C671.211 171.64 222.013 105.48 0 97.6899V0.808105C732.455 25.6655 1169.85 286.308 1263.49 397.852C1439 565.994 1488.55 832.103 1491.4 925.451H645.225C683.084 897.516 757.924 839.191 765.339 832.309C881.87 747.899 948.055 666.076 966.582 635.716C1074.14 477.93 938.538 386.782 929.757 379.715Z" fill="url(#paint0_linear_1_175)"/>
+  <path d="M1 1.84326C366.632 14.3673 658.634 85.6624 870.939 167.755C1083.49 249.943 1216.06 342.914 1262.73 398.495L1262.76 398.537L1262.8 398.574C1350.4 482.501 1406.6 590.908 1441.25 690.03C1475.65 788.428 1488.78 877.601 1490.36 924.451H648.258C667.123 910.469 693.967 889.913 717.312 871.775C741.551 852.943 762.09 836.662 765.969 833.087C882.52 748.654 948.786 666.78 967.417 636.266C994.382 596.705 1006.15 561.261 1008.44 530.217C1010.73 499.169 1003.54 472.584 992.691 450.751C971.021 407.123 934.726 382.431 930.384 378.936C800.949 274.769 623.854 206.165 451.424 162.626C279.477 119.21 112.075 100.696 1 96.7261V1.84326Z" stroke="url(#paint1_linear_1_175)" stroke-opacity="0.08" stroke-width="2"/>
+  <defs>
+    <linearGradient id="paint0_linear_1_175" x1="-183.235" y1="-205.587" x2="-140.543" y2="1053.39" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#303030"/>
+      <stop offset="0.188894" stop-color="#141414"/>
+      <stop offset="0.288395" stop-color="#141414"/>
+      <stop offset="0.723232" stop-color="#0D0D0D"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_1_175" x1="745.698" y1="0.808105" x2="745.698" y2="925.451" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+          </div>
+          
+
+
+
         </div>
     );
 };
