@@ -14,8 +14,13 @@
     "chart.js": "^4.4.9",
     "gsap": "^3.12.7",
     "lightningcss": "^1.29.3",
+<<<<<<< HEAD
     "lucide-react": "^0.540.0",
     "next": "15.5.0",
+=======
+    "next": "15.5.0",
+    "next-video": "^2.2.3",
+>>>>>>> 27207e582d473487acc77ba743f821d618a0f825
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",

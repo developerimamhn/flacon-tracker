@@ -97,7 +97,11 @@ const NavBar = () => {
             isVisible ? "translate-y-0 transition-transform duration-300" : "-translate-y-full transition-transform duration-300"
         }`}>
             
+<<<<<<< HEAD
+            <header className='px-[24px] sm:px-0 container mx-auto  flex justify-between items-center p-[11px] sm:p-[12px] md:p-[13px] lg:p-[14px] xl:p-[15px] 2xl:p-[16px] relative  sm:overflow-hidden positasdeinasa mt-[16px] sm:mt-[20px] md:mt-[24px] lg:mt-[32px] xl:mt-[36px] 2xl:mt-[40px] mb-4'>
+=======
             <header className='navbg px-[24px] sm:px-0 container mx-auto  flex justify-between items-center py-[12px] sm:py-[14px] lg:py-[16px] relative  sm:overflow-hidden'>
+>>>>>>> ecf72cb70e71b8265dedbbb8aa1e46acd6110770
             <dev className='linersext absolute bottom-0 left-0 w-full h-[2px] z-10'></dev>
                 <div className='sm:hidden relative top-[-11px]'>
                     
