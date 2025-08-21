@@ -97,7 +97,7 @@ const NavBar = () => {
             isVisible ? "translate-y-0 transition-transform duration-300" : "-translate-y-full transition-transform duration-300"
         }`}>
             
-            <header className='px-[24px] sm:px-0 container mx-auto  flex justify-between items-center py-[12px] sm:py-[14px] lg:py-[16px] relative  sm:overflow-hidden'>
+            <header className='navbg px-[24px] sm:px-0 container mx-auto  flex justify-between items-center py-[12px] sm:py-[14px] lg:py-[16px] relative  sm:overflow-hidden'>
             <dev className='linersext absolute bottom-0 left-0 w-full h-[2px] z-10'></dev>
                 <div className='sm:hidden relative top-[-11px]'>
                     
@@ -143,14 +143,14 @@ const NavBar = () => {
 
                     <ul className='sm:hidden block'>
                     <button className='buttonaudit cursor-pointer text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] flex items-center h-[36px] md:h-[40px] lg:h-[44px] xl:h-[48px] 2xl:h-[54px] px-[15px] sm:px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[30px] group gap-[7.50px]'>
-                    Download
+                    Contact
                     </button>
                 </ul>
                 </nav>
                 
                 <ul className='sm:block hidden'>
                     <button className='buttonaudit cursor-pointer text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] flex items-center h-[36px] md:h-[40px] lg:h-[44px] xl:h-[48px] 2xl:h-[54px] px-[15px] sm:px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[30px] group gap-[7.50px]'>
-                    Download
+                    Contact
                     </button>
                 </ul>
                 
