@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 import logo from "./image/logo.png";
 
-import { ArrowRight } from "lucide-react"; // icon library
+
 
 
 

@@ -3,8 +3,7 @@
 import { useEffect, useRef } from "react";
 import NavBar from './NavBar';
 import HeroPage from './HeroPage';
-import Video from 'next-video';
-import getStarted from './vidoe.mp4';
+
 import Image from 'next/image';
 import { gsap } from "gsap";    
 
@@ -85,15 +84,7 @@ const Header = () => {
           </filter>
           </defs>
           </svg>
-          <Video
-          src={getStarted}
-          className="w-full rounded-lg"
-          autoPlay
-          muted
-          loop
-          playsInline
-          controls
-        />
+         
 
             <NavBar/>
             <HeroPage/>
