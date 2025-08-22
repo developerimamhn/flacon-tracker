@@ -3,8 +3,6 @@
 import { useEffect, useRef } from "react";
 import NavBar from './NavBar';
 import HeroPage from './HeroPage';
-import Video from 'next-video';
-import getStarted from './vidoe.mp4';
 import Image from 'next/image';
 import { gsap } from "gsap";    
 
@@ -85,15 +83,19 @@ const Header = () => {
           </filter>
           </defs>
           </svg>
-          <Video
-          src={getStarted}
-          className="w-full rounded-lg"
-          autoPlay
-          muted
-          loop
-          playsInline
-          controls
-        />
+          <svg className="w-[40%] absolute right-0 bottom-0" viewBox="0 0 962 1556" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_f_4_14)">
+          <ellipse cx="836.712" cy="778.416" rx="354.133" ry="134.789" transform="rotate(36.5717 836.712 778.416)" fill="#D9D9D9" fill-opacity="0.36"/>
+          </g>
+          <defs>
+          <filter id="filter0_f_4_14" x="0.805847" y="0.915527" width="1671.81" height="1555" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="270.15" result="effect1_foregroundBlur_4_14"/>
+          </filter>
+          </defs>
+          </svg>
+
 
             <NavBar/>
             <HeroPage/>
