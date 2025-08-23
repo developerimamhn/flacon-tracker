@@ -563,25 +563,23 @@ margin-top: 40px;
 
   }
 
-  .buttonaudit {
-    border-radius: 8px;
-    background: #E8423A;
-    
-    font-style: normal;
-    
-    
-    position: relative; /* For pseudo-elements */
-    overflow: hidden; /* Contain gradient and glow effects */
-    z-index: 1;
-    transition: transform 0.2s ease; /* Fallback for non-GSAP browsers */
-    color: #FFF;
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: capitalize;
+.buttonaudit {
+  border-radius: 8px;
+  background: #E8423A;
+  color: #FFF;
+  font-family: "Inter", "Neue Power Trial", sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+
+  position: relative; /* For pseudo-elements */
+  overflow: hidden; /* Contain gradient and glow effects */
+  z-index: 1;
+  transition: transform 0.2s ease; /* Fallback for non-GSAP browsers */
 }
+
 
 /* Gradient overlay for hover */
 .buttonaudit::before {
@@ -1102,16 +1100,12 @@ text-transform: uppercase;
 }
 
 .backgroundcard { 
- border-radius: 20px;
-border: 1px solid rgba(255, 255, 255, 0.20);
-background: rgba(6, 6, 6, 0.20);
-backdrop-filter: blur(66.80000305175781px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: rgba(6, 6, 6, 0.20);
+  backdrop-filter: blur(66.80000305175781px);
 }
 
-.backgroundcard:hover {
-  border: 1px solid rgba(67, 46, 153, 0.3);
-  background: rgba(6, 6, 6, 0.30);
-}
 
 .falconfont {
  color: #FFF;
