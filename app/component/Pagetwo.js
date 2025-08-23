@@ -3,8 +3,9 @@
 import React, { useEffect, useRef,useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import numbeingss from './image/numbeingss.png';
 import image8 from './image/image8.png';
+import image9 from './image/image9.png';
+import image10 from './image/image10.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import Crxconving from './Crxconving';
@@ -153,29 +154,32 @@ const Pagetwo = () => {
     
     return (
         <div>
-          <h1 className='p2fltracker text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px]'>Flacon Tracker </h1>
+          <h1 className='p2fltracker text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px] mt-[68px] sm:mt-[108px] md:mt-[128px] lg:mt-[138px] xl:mt-[158px] 2xl:mt-[170px]'>Flacon Tracker </h1>
           <h2 className='p2howit text-center text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px]'>How It Works?</h2>
-          
-          <div className='flex justify-between p-20'>
+
+          <div className='grid grid-cols-3 gap-[32px] p-20'>
 
           <div>
-             <div className="p2cardd ">
-             <h3 className="connectto text-center">Connect to <b /> Telegram</h3>
-             <p className="addfa text-center">Add Flacon Tracker to <br /> your Telegram.</p>
+             <div className="p2cardd p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]">
+             <h3 className="connectto ">Connect to <br /> Telegram</h3>
+             <Image src={image8} alt="Image"  className="mx-auto h-[36px] sm:h-[40px] md:h-[48px] lg:h-[64px] xl:h-[105px] 2xl:h-[113px] w-[36px] sm:w-[40px] md:w-[48px] lg:w-[64px] xl:w-[105px] 2xl:w-[113px]  mt-[20px] sm:mt-[24px] md:mt-[32px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[44px] mb-[24px] sm:mb-[32px] md:mb-[36px] lg:mb-[40px] xl:mb-[48px] 2xl:mb-[70px]" />
+             <p className="addfa ">Add Flacon Tracker to <br /> your Telegram.</p>
+            </div>
+            </div>
+
+           <div>
+             <div className="p2cardd p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]">
+             <h3 className="connectto ">Set Your <br /> Parameters</h3>
+             <Image src={image9} alt="Image"  className="mx-auto h-[36px] sm:h-[40px] md:h-[48px] lg:h-[64px] xl:h-[105px] 2xl:h-[113px] w-[36px] sm:w-[40px] md:w-[48px] lg:w-[64px] xl:w-[105px] 2xl:w-[113px]  mt-[20px] sm:mt-[24px] md:mt-[32px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[44px] mb-[24px] sm:mb-[32px] md:mb-[36px] lg:mb-[40px] xl:mb-[48px] 2xl:mb-[70px]" />
+             <p className="addfa ">Customize your tracking  <br /> preferences.</p>
             </div>
             </div>
 
             <div>
-             <div className="p2cardd ">
-             <h3 className="connectto text-center">Set Your <br /> Parameters</h3>            
-             <p className="addfa text-center">Customize your tracking <br /> preferences.</p>
-            </div>
-            </div>
-
-            <div>
-             <div className="p2cardd ">
-             <h3 className="connectto text-center">Receive Alerts</h3>
-             <p className="addfa text-center">Get real-time notifications <br /> on trending launches.</p>
+             <div className="p2cardd p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]">
+             <h3 className="connectto ">Receive Alerts</h3>
+             <Image src={image10} alt="Image"  className="mx-auto h-[36px] sm:h-[40px] md:h-[48px] lg:h-[64px] xl:h-[105px] 2xl:h-[113px] w-[36px] sm:w-[40px] md:w-[48px] lg:w-[64px] xl:w-[105px] 2xl:w-[113px]  mt-[60px] sm:mt-[64px] md:mt-[70px] lg:mt-[75px] xl:mt-[80px] 2xl:mt-[89px] mb-[24px] sm:mb-[32px] md:mb-[36px] lg:mb-[40px] xl:mb-[48px] 2xl:mb-[70px]" />
+             <p className="addfa ">Get real-time notifications<br /> on trending launches.</p>
             </div>
             </div>
             

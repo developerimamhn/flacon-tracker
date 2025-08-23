@@ -153,7 +153,7 @@ const Pageone = () => {
     return (
        <div>
         <h1 className='p1h1 text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>
-          Persona Wallet supported  <p className='p1br text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>by Features</p>
+          Persona Wallet <br/> supported <span className='p1br text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>by Features </span>
         </h1>
         <h2 className='p1h2 pt-[32px] text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px]'>
           Persona Wallet supported by Naxion Network Store all of your crypto and NFTs in one <br /> 
