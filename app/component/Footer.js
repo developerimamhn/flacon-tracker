@@ -6,6 +6,9 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 import logo from "./image/logo.png";
+import image11 from "./image/image11.png";
+import image12 from "./image/image12.png";
+import image13 from "./image/image13.png";
 
 
 
@@ -120,12 +123,12 @@ const Footer = () => {
 
             <div>
           
-                <Image className='w-[400px] h-[38px] sm:h-[37px] 2xl:h-[55.3px]' src={logo} alt=''/>
+                <Image className='w-[400px] h-[38px] sm:h-[37px] 2xl:h-[55.3px] mt-[40px]' src={logo} alt=''/>
 
             </div>
 
             <div>
-                <nav className='navbar-items-main absolute sm:top-0 top-[100%] sm:left-0 sm:relative duration-1000 z-[999] sm:opacity-100 flex justif-start sm:justify-between items-start sm:items-center gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[32px] sm:bg-transparent bg-[#000000] sm:flex-row flex-col w-full sm:w-fit h-screen sm:h-full ml-auto mr-[14px] sm:mr-[15px] md:mr-[16px] lg:mr-[20px] xl:mr-[24px] 2xl:mr-[32px] sm:p-0 p-6
+                <nav className='navbar-items-main absolute mt-[18px] sm:left-0 sm:relative duration-1000 z-[999] sm:opacity-100 flex justify-start sm:justify-between items-start sm:items-center gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[32px] sm:bg-transparent bg-[#000000] sm:flex-row flex-col w-full sm:w-fit h-screen sm:h-full ml-auto mr-[14px] sm:mr-[15px] md:mr-[16px] lg:mr-[20px] xl:mr-[24px] 2xl:mr-[32px] sm:p-0
                     '>
                     <a className="cursor-pointer Link-manu-bar flex items-center gap-[6px] lg:gap-[8px]" href="#Home" onClick={(e) => handleScroll(e, "Home")}>
                     Home</a>
@@ -155,60 +158,10 @@ const Footer = () => {
                 </nav>
                 </div>
 
-                <div className='flex'>
-                   <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
-                  <g filter="url(#filter0_i_1_136)">
-                    <circle cx="28" cy="28" r="28" fill="url(#paint0_linear_1_136)"/>
-                  </g>
-                  <circle cx="28" cy="28" r="27.25" stroke="white" stroke-opacity="0.15" stroke-width="1.5"/>
-                  <defs>
-                    <filter id="filter0_i_1_136" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                      <feOffset/>
-                      <feGaussianBlur stdDeviation="9.96522"/>
-                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"/>
-                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_136"/>
-                    </filter>
-                    <linearGradient id="paint0_linear_1_136" x1="-3.13609" y1="-2.8903" x2="45.2498" y2="67.4683" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#303030"/>
-                      <stop offset="0.188894" stop-color="#141414"/>
-                      <stop offset="0.288395" stop-color="#0F0F0F"/>
-                      <stop offset="0.759772" stop-color="#0E0E0E"/>
-                      <stop offset="0.815517" stop-color="#131313"/>
-                      <stop offset="1" stop-color="#303030"/>
-                    </linearGradient>
-                  </defs>
-                </svg>
+                <div className='flex gap-[16px] mt-[40px]'>
+                   <Image className='h-[56px] w-[56px]' src={image11} alt='image11' />
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
-                  <g filter="url(#filter0_i_1_136)">
-                    <circle cx="28" cy="28" r="28" fill="url(#paint0_linear_1_136)"/>
-                  </g>
-                  <circle cx="28" cy="28" r="27.25" stroke="white" stroke-opacity="0.15" stroke-width="1.5"/>
-                  <defs>
-                    <filter id="filter0_i_1_136" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                      <feOffset/>
-                      <feGaussianBlur stdDeviation="9.96522"/>
-                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"/>
-                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_136"/>
-                    </filter>
-                    <linearGradient id="paint0_linear_1_136" x1="-3.13609" y1="-2.8903" x2="45.2498" y2="67.4683" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#303030"/>
-                      <stop offset="0.188894" stop-color="#141414"/>
-                      <stop offset="0.288395" stop-color="#0F0F0F"/>
-                      <stop offset="0.759772" stop-color="#0E0E0E"/>
-                      <stop offset="0.815517" stop-color="#131313"/>
-                      <stop offset="1" stop-color="#303030"/>
-                    </linearGradient>
-                  </defs>
-                </svg>
+                <Image className='h-[56px] w-[56px]' src={image12} alt="image12" />
                 </div>
                
             </div>
@@ -216,28 +169,40 @@ const Footer = () => {
             <div className='linefooter w-full'></div>
 
                 
-
-                <div className='mailboxx m-10 overflow-hidden w-96'>
+         <div className='flex justify-between'>
+               <div className='mailboxx m-10 overflow-hidden h-[57.566px] w-[332.781px] '>
                   <form
-      onSubmit={handleSubmit}
-      className="m-4"
-    >
-      {/* Input */}
-      <input
-        placeholder="Enter Your Email Address"
-        className=" text-white outline-none "
+                   onSubmit={handleSubmit}
+                   className="m-4"
+                  >
+               {/* Input */}
+                 <input
+                  placeholder="Enter Your Email Address"
+                  className="enteremail outline-none pr-[122px] "
        
-      />
+               />
 
-      <svg className="absolute left-83 top-46 " xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-  <path d="M1.09766 22.1025L23.5977 12.3525L1.09766 2.60254V10.1025L16.0977 12.3525L1.09766 14.6025V22.1025Z" fill="white"/>
-</svg>
+                 <Image className="absolute left-[21%] top-[66.5%] h-[57px] w-[54px]" src={image13} alt='image13' />
 
-     
-     
-    </form>
-                </div>
-          
+                 <svg className="absolute left-[22%] top-[71.5%]" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                     <path d="M1.09766 22.1025L23.5977 12.3525L1.09766 2.60254V10.1025L16.0977 12.3525L1.09766 14.6025V22.1025Z" fill="white"/>
+                 </svg>
+
+                   </form>
+  
+              </div>
+                  <div className='flex duration-1000 z-[999] sm:opacity-100 sm:justify-between items-start sm:items-center gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[32px] mr-[84px]'>
+                     <a className="cursor-pointer Link-manu-bar flex items-center gap-[6px] lg:gap-[8px]" href="#Home" onClick={(e) => handleScroll(e, "Home")}>
+                    Support</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" className='w-[2px] sm:block hidden' viewBox="0 0 2 15" fill="none">
+                        <path opacity="0.25" d="M1.36133 0.0492096L1.36133 14.9508" stroke="white"/>
+                        </svg>
+                    <a className="cursor-pointer Link-manu-bar flex items-center gap-[6px] lg:gap-[8px]" href="#Features" onClick={(e) => handleScroll(e, "Features")}>
+                    Privacy policy </a>
+                        
+
+                   </div>
+             </div>      
 
         </div>
     );

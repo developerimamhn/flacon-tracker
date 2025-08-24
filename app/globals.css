@@ -1353,11 +1353,21 @@ background: rgba(255, 255, 255, 0.10);
 }
 
 .mailboxx{
-  width: 332.781px;
-height: 57.566px;
-flex-shrink: 0;
+ 
+
 border-radius: 13px;
 border: 1.643px solid rgba(255, 255, 255, 0.05);
 background: linear-gradient(145deg, rgba(48, 48, 48, 0.60) -5.34%, rgba(20, 20, 20, 0.60) 15.37%, rgba(15, 15, 15, 0.60) 26.28%, rgba(14, 14, 14, 0.60) 77.97%, rgba(19, 19, 19, 0.60) 84.08%, rgba(48, 48, 48, 0.60) 104.31%);
 box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.10) inset;
+}
+
+.enteremail{
+  color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+opacity: 0.3;
 }
