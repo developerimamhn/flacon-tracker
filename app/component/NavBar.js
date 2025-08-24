@@ -132,7 +132,7 @@ const NavBar = () => {
                         <path opacity="0.25" d="M1.36133 0.0492096L1.36133 14.9508" stroke="white"/>
                         </svg>
 
-                    <a className="cursor-pointer Link-manu-bar flex items-center gap-[6px] lg:gap-[8px]" href="#How It Works" onClick={(e) => handleScroll(e, "How It Works")}>
+                    <a className="cursor-pointer Link-manu-bar flex items-center gap-[6px] lg:gap-[8px]" href="#HowItWorks" onClick={(e) => handleScroll(e, "HowItWorks")}>
                     How It Works</a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="2" height="15" viewBox="0 0 2 15" fill="none">
                         <path opacity="0.25" d="M1.36133 0.0492096L1.36133 14.9508" stroke="white"/>

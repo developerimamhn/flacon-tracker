@@ -70,66 +70,19 @@ const HeroPage = () => {
   }, []);
 
 
-const cardRef = useRef(null);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-
-    gsap.registerPlugin(ScrollTrigger);
-
-    const card = cardRef.current;
-    if (!card) {
-      console.error("Card ref not found");
-      return;
-    }
-
-    // Set initial position for sticky effect
-    gsap.set(card, {
-      position: "fixed",
-      top: 20,
-      left: "50%",
-      transform: "translateX(-50%)",
-      zIndex: 50,
-      opacity: 1,
-    });
-
-    // Animate card when scrolling past 100vh
-    gsap.to(card, {
-      y: -100,
-      opacity: 0,
-      duration: 0.5,
-      ease: "power2.out",
-      scrollTrigger: {
-        trigger: document.body,
-        start: "top top+=100vh", // Start animation at 100vh
-        end: "top top+=120vh", // End animation at 120vh to prevent abrupt hiding
-        toggleActions: "play none none reverse",
-        scrub: false, // Animation completes instantly, not tied to scroll speed
-        // markers: true, // Uncomment to debug trigger points
-      },
-    });
-
-    // Refresh ScrollTrigger to handle layout shifts
-    ScrollTrigger.refresh();
-
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
-
 
 
     return (
-        <div id="hero" ref={buttonRef} className='relative pb-[36px] sm:pb-[40px] md:pb-[48px] lg:pb-[64px] xl:pb-[96px] 2xl:pb-[113px]'>
+        <div id="Home" ref={buttonRef} className='relative pb-[36px] sm:pb-[40px] md:pb-[48px] lg:pb-[64px] xl:pb-[96px] 2xl:pb-[113px] px-6 container mx-auto sm:px-0'>
           <div className='relative z-[2] '>
             <div className='pt-[100px] sm:pt-[90px] md:pt-[110px] lg:pt-[140px] xl:pt-[180px] 2xl:pt-[220px] sm:pb-0 pb-[50px] container mx-auto px-[24px] sm:px-0 w-full'>
                 <div  className='flex items-center justify-center sm:flex-row flex-col'>
-                  <div data-layer="Frame 14" className="Frame14 flex flex-col justify-center sm:justify-start items-center sm:items-starts w-full col-span-1 sm:col-span-9">
+                  <div className="Frame14 flex flex-col justify-center sm:justify-start items-center sm:items-starts w-full col-span-1 sm:col-span-9">
                       <div  className='inline-flex flex-col w-full mt-[12px] sm:mt-[13px] md:mt-[14px] lg:mt-[15px] xl:mt-[16px] 2xl:mt-[20px]'>
-                          <div data-layer="Frame 13" className="Frame13 self-stretch flex flex-col justify-center sm:justify-start items-center sm:items-start gap-[14px]  sm:gap-[16px] xl:gap-[24px]">
-                              <div className="TradeLikeAProWithXonicCapital text-center sm:text-start text-[40px] sm:text-[60px] md:text-[80px] lg:text-[90px] xl:text-[130px] 2xl:text-[180px] items-center justify-start relative lg:flex-row flex-col">
+                          <div  className="Frame13 self-stretch flex flex-col justify-center sm:justify-start items-center sm:items-start gap-[14px]  sm:gap-[16px] xl:gap-[24px]">
+                              <h1 className="TradeLikeAProWithXonicCapital text-center sm:text-start text-[32px] sm:text-[36px] md:text-[40px] lg:text-[48px] xl:text-[64px] 2xl:text-[76px] items-center justify-start relative lg:flex-row flex-col">
                               Get Custom Crypto <br className='sm:block hidden'/> Alerts and  <span className='befirst'>Be First <br className='sm:block hidden'/> to Spot Trending <br className='sm:block hidden'/> Tokens</span>
-                             <svg xmlns="http://www.w3.org/2000/svg" className='absolute -bottom-17 left-[24%] w-[192px] -z-[1]'  viewBox="0 0 192 189" fill="none">
+                             <svg xmlns="http://www.w3.org/2000/svg" className='absolute -bottom-17 left-[24%] w-[192px] -z-[1] sm:block hidden'  viewBox="0 0 192 189" fill="none">
                                 <path d="M104.092 40.5159C103.653 40.7621 103.497 41.3175 103.743 41.7564C103.989 42.1954 104.545 42.3517 104.984 42.1056L104.092 40.5159ZM58.2531 116.573L57.3522 116.436L58.2531 116.573ZM63.5254 98.0701C63.3015 97.6194 62.7547 97.4355 62.304 97.6594L54.9591 101.308C54.5083 101.532 54.3245 102.079 54.5483 102.529C54.7722 102.98 55.3191 103.164 55.7698 102.94L62.2986 99.697L65.5416 106.226C65.7655 106.676 66.3124 106.86 66.7631 106.636C67.2138 106.413 67.3977 105.866 67.1738 105.415L63.5254 98.0701ZM127.131 38.6003L126.733 39.4199C134.403 43.1472 138.535 52.8679 138.684 66.033C138.831 79.1372 135.01 95.3548 127.139 111.55L127.959 111.949L128.778 112.347C136.746 95.9521 140.658 79.4551 140.506 66.0125C140.355 52.6307 136.155 41.9723 127.529 37.7807L127.131 38.6003ZM127.959 111.949L127.139 111.55C119.269 127.746 108.879 140.771 98.4842 148.752C88.0413 156.77 77.8449 159.527 70.1751 155.8L69.7768 156.62L69.3785 157.439C78.0037 161.631 88.9793 158.348 99.5941 150.198C110.257 142.011 120.811 128.742 128.778 112.347L127.959 111.949ZM104.538 41.3108L104.984 42.1056C113.083 37.5638 120.688 36.4823 126.733 39.4199L127.131 38.6003L127.529 37.7807C120.728 34.4754 112.455 35.8267 104.092 40.5159L104.538 41.3108ZM69.7768 156.62L70.1751 155.8C65.1953 153.38 61.7098 148.45 59.8301 141.648C57.9502 134.846 57.7056 126.256 59.1541 116.709L58.2531 116.573L57.3522 116.436C55.8781 126.151 56.1057 135.013 58.0735 142.134C60.0415 149.255 63.7791 154.718 69.3785 157.439L69.7768 156.62ZM58.2531 116.573L59.1541 116.709C60.021 110.996 61.4925 104.953 63.573 98.7659L62.7093 98.4755L61.8456 98.1851C59.7341 104.465 58.2362 110.61 57.3522 116.436L58.2531 116.573Z" fill="url(#paint0_linear_4_304)"/>
                                 <path d="M88.3554 21.2306C97.2389 32.169 95.5731 48.2378 84.6347 57.1213C95.5731 48.2378 111.642 49.9036 120.525 60.842C111.642 49.9036 113.308 33.8348 124.246 24.9513C113.308 33.8348 97.2389 32.169 88.3554 21.2306Z" fill="url(#paint1_radial_4_304)"/>
                                 <defs>
@@ -145,13 +98,13 @@ const cardRef = useRef(null);
                                   </radialGradient>
                                 </defs>
                               </svg>
-                              </div>
+                              </h1>
                           </div>
                       </div>
                   </div>
                   
                 </div>
-               <div className="flex  mt-[24px] sm:mt-[32px] md:mt-[36px] lg:mt-[40px] xl:mt-[48px] 2xl:mt-[60px] justify-between items-end">
+               <div className="flex sm:flex-row flex-col  gap-10 mt-[80px] sm:mt-[32px] md:mt-[36px] lg:mt-[40px] xl:mt-[48px] 2xl:mt-[60px] justify-between items-end">
                   <div className='flex items-center justify-center gap-5'>
                   <h1 className="scrolldown">
                     Scroll <br /> Down
@@ -186,7 +139,7 @@ const cardRef = useRef(null);
                     </defs>
                   </svg>
                   </div>
-                  <div ref={cardRef} className="backgroundcard p-[32px] w-3/8 relative group transition-transform duration-300 ease-in-out hover:scale-102 z-50">
+                  <div  className="backgroundcard p-[32px] w-full sm:w-3/8 relative group transition-transform duration-300 ease-in-out hover:scale-102 z-50">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg" 
                       className="w-[30px] absolute -top-[10px] -right-[10px] group-hover:-top-[20px] group-hover:-right-[20px] duration-200" 

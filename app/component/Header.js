@@ -83,7 +83,8 @@ const Header = () => {
           </filter>
           </defs>
           </svg>
-          <svg className="w-[40%] absolute right-0 bottom-0" viewBox="0 0 962 1556" fill="none" xmlns="http://www.w3.org/2000/svg">
+          
+          <svg className="w-[40%] absolute right-0 -bottom-2/5" viewBox="0 0 962 1556" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_f_4_14)">
           <ellipse cx="836.712" cy="778.416" rx="354.133" ry="134.789" transform="rotate(36.5717 836.712 778.416)" fill="#D9D9D9" fill-opacity="0.36"/>
           </g>
@@ -95,6 +96,8 @@ const Header = () => {
           </filter>
           </defs>
           </svg>
+
+          
 
 
             <NavBar/>
