@@ -153,11 +153,11 @@ const Pagetwo = () => {
 
     
     return (
-        <div>
+        <div className='container mx-auto px-[24px] sm:px-[40px] md:px-[64px] lg:px-[96px] xl:px-[128px] 2xl:px-[178px]'>
           <h1 className='p2fltracker text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px] mt-[68px] sm:mt-[108px] md:mt-[128px] lg:mt-[138px] xl:mt-[158px] 2xl:mt-[170px]'>Flacon Tracker </h1>
           <h2 className='p2howit text-center text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px]'>How It Works?</h2>
 
-          <div className='grid grid-cols-3 gap-[32px] p-20'>
+          <div className='grid grid-cols-3 gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[31px] p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]'>
 
           <div>
              <div className="p2cardd p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]">

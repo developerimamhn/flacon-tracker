@@ -151,17 +151,19 @@ const Pageone = () => {
 
     
     return (
-       <div>
-        <h1 className='p1h1 text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>
-          Persona Wallet <br/> supported <span className='p1br text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>by Features </span>
-        </h1>
-        <h2 className='p1h2 pt-[32px] text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px]'>
-          Persona Wallet supported by Naxion Network Store all of your crypto and NFTs in one <br /> 
-          place & Protectyour digital assets with industry-leading security!
-        </h2>
+      <div className='posigoandsa'>
+        <div className='container mx-auto pt-[40px] sm:pt-[48px] md:pt-[64px] lg:pt-[96px] xl:pt-[128px] 2xl:pt-[150px]'>
+          <h1 className='p1h1 text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>
+            Persona Wallet <br/> supported <span className='p1br text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>by Features </span>
+          </h1>
+          <h2 className='p1h2 pt-[32px] text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px]'>
+            Persona Wallet supported by Naxion Network Store all of your crypto and NFTs in one <br /> 
+            place & Protectyour digital assets with industry-leading security!
+          </h2>
 
-        <Image className='w-full pointer-events-none select-none' src={mobilephoto} alt='Loading...' />
-       </div>
+          <Image className='w-full pointer-events-none select-none grayscale-100 pt-[32px] sm:pt-[36px] md:pt-[40px] lg:pt-[48px] xl:pt-[64px] 2xl:pt-[90px]' src={mobilephoto} alt='Loading...' />
+        </div>
+      </div>
     );
 };
 

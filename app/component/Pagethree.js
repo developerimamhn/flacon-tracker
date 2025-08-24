@@ -212,7 +212,7 @@ const Pagethree = () => {
 
     
     return (
-        <div className=' w-full'>
+        <div className=' w-full '>
           <h1 className='p3roadmp text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>Roadmap</h1>
 
           <div className='relative'>

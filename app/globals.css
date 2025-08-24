@@ -71,6 +71,12 @@ body {
 
 
 @layer utilities{
+  .posigoandsa{
+    border-top: 1.8px solid #242526;
+    border-bottom: 1.8px solid #242526;
+    background: linear-gradient(180deg, rgba(19, 21, 23, 0.70) 0%, rgba(19, 21, 23, 0.00) 100%);
+    backdrop-filter: blur(49.900001525878906px);
+  }
   .divisiolast{
     color: #F3E2FF;
     text-align: center;
@@ -1042,7 +1048,7 @@ text-transform: uppercase;
   
 
   .header.scrolled {
-    background: #FBC4C5;
+    background: #303030;
     font-size: #fff;
     /* border-image-source: linear-gradient(90deg, #010214 0%, rgba(55, 57, 82, 0.6) 50.16%, #010214 100%); */
     /* border-bottom-width: 0.78px; */
