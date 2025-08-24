@@ -151,7 +151,7 @@ const Pageone = () => {
 
     
     return (
-      <div className='posigoandsa'>
+      <div id='Features' className='posigoandsa '>
         <div className='container mx-auto pt-[40px] sm:pt-[48px] md:pt-[64px] lg:pt-[96px] xl:pt-[128px] 2xl:pt-[150px]'>
           <h1 className='p1h1 text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>
             Persona Wallet <br/> supported <span className='p1br text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px]'>by Features </span>

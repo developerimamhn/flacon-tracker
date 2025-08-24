@@ -575,7 +575,6 @@ margin-top: 40px;
   color: #FFF;
   font-family: "Inter", "Neue Power Trial", sans-serif;
   font-style: normal;
-  font-size: 22px;
   font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
@@ -971,11 +970,9 @@ margin-top: 40px;
     font-family: "Plain";
   }
   .TradeLikeAProWithXonicCapital{
-   width: 834.478px;
    color: rgba(255, 255, 255, 0.40);
     text-shadow: 0 3.593px 7.725px rgba(0, 0, 0, 0.25);
-   font-family: Tomorrow;
-    font-size: 76.352px;
+   font-family: 'Tomorrow';
      font-style: normal;
     font-weight: 400;
    line-height: 125%; /* 95.44px */
@@ -1115,7 +1112,7 @@ text-transform: uppercase;
 
 .falconfont {
  color: #FFF;
-font-family: Inter;
+font-family: 'Inter';
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
@@ -1140,7 +1137,7 @@ box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.15) inset;
 .getstratxt {
  color: #FFF;
 text-align: right;
-font-family: Inter;
+font-family: 'Inter';
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -1151,7 +1148,7 @@ text-transform: capitalize;
 .scrolldown{
 opacity: 0.7;
 color: #FFF;
-font-family: Inter;
+font-family: 'Inter';
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -1164,7 +1161,7 @@ line-height: 109%;
   color: #FFF;
 text-align: center;
 text-shadow: 0 4px 8.6px rgba(0, 0, 0, 0.25);
-font-family: Tomorrow;
+font-family: 'Tomorrow';
 
 font-style: normal;
 font-weight: 400;
@@ -1174,7 +1171,7 @@ text-transform: uppercase;
 
 .p1br {
  color: rgba(255, 255, 255, 0.50);
-font-family: Tomorrow;
+font-family: 'Tomorrow';
 font-style: normal;
 font-weight: 400;
 line-height: 128%;
@@ -1184,7 +1181,7 @@ text-transform: uppercase;
 .p1h2 {
  color: #BBB;
 text-align: center;
-font-family: Inter;
+font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 line-height: 160%; /* 35.2px */
@@ -1206,7 +1203,7 @@ box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.15) inset;
 .multichain {
  color: #FFF;
 text-shadow: 0 4px 8.6px rgba(0, 0, 0, 0.25);
-font-family: Tomorrow;
+font-family: 'Tomorrow';
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
@@ -1216,7 +1213,7 @@ text-transform: uppercase;
 
 .tracktoken {
  color: #BBB;
-font-family: Inter;
+font-family: 'Inter';
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -1228,7 +1225,7 @@ text-transform: capitalize;
   color: #999;
 text-align: center;
 text-shadow: 0 4px 8.6px rgba(0, 0, 0, 0.25);
-font-family: Tomorrow;
+font-family: 'Tomorrow';
 
 font-style: normal;
 font-weight: 400;
@@ -1238,7 +1235,7 @@ text-transform: uppercase;
 
 .p2howit{
   color: #FFF;
-font-family: Tomorrow;
+font-family: 'Tomorrow';
 
 font-style: normal;
 font-weight: 400;
@@ -1258,31 +1255,28 @@ box-shadow: 0 0 19.014px 0 rgba(255, 255, 255, 0.15) inset;
 .connectto{
 
   color: #FFF;
-font-family: Tomorrow;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: 140%; /* 44.8px */
-text-transform: capitalize;
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 44.8px */
+  text-transform: capitalize;
 
 }
 
 .addfa{
-
   color: #BBB;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 32px */
-text-transform: capitalize;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  text-transform: capitalize;
 }
 
 .p3roadmp{
   color: #FFF;
 text-align: center;
 text-shadow: 0 4px 8.6px rgba(0, 0, 0, 0.25);
-font-family: Tomorrow;
+font-family: 'Tomorrow';
 
 font-style: normal;
 font-weight: 400;
@@ -1292,58 +1286,44 @@ text-transform: uppercase;
 
 .q42021{
   color: #FFF;
-leading-trim: both;
-text-edge: cap;
-font-family: Tomorrow;
-font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: 130%; /* 39px */
-text-transform: uppercase;
+  font-family: 'Tomorrow';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 39px */
+  text-transform: uppercase;
 }
 
 .expantion{
   color: #BBB;
-leading-trim: both;
-text-edge: cap;
-font-family: Inter;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 35.2px */
-text-transform: capitalize;
-opacity: 0.7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+  opacity: 0.7;
 }
 
 .addingsu{
   color: #BBB;
-leading-trim: both;
-text-edge: cap;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 28.8px */
-text-transform: capitalize;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  text-transform: capitalize;
 }
 
 .p3card{
-  
-height: 231.73px;
-flex-shrink: 0;
-border-radius: 20px;
-border: 1.643px solid rgba(255, 255, 255, 0.15);
-background: linear-gradient(145deg, #303030 -5.34%, #141414 15.37%, #0F0F0F 26.28%, #0E0E0E 77.97%, #131313 84.08%, #303030 104.31%);
-box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.15) inset;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1.643px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(145deg, #303030 -5.34%, #141414 15.37%, #0F0F0F 26.28%, #0E0E0E 77.97%, #131313 84.08%, #303030 104.31%);
+  box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.15) inset;
 }
 
 .footrbkgrnd{
- 
-height: 316.039px;
-flex-shrink: 0;
-border-top: 1.5px solid rgba(187, 187, 187, 0.07);
-background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 3.88%, rgba(0, 0, 0, 0.05) 100%);
-backdrop-filter: blur(10.550000190734863px);
+  border-top: 1.5px solid rgba(187, 187, 187, 0.07);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 3.88%, rgba(0, 0, 0, 0.05) 100%);
+  backdrop-filter: blur(10.550000190734863px);
 }
 
 .linefooter {
@@ -1363,11 +1343,17 @@ box-shadow: 0 0 19.93px 0 rgba(255, 255, 255, 0.10) inset;
 
 .enteremail{
   color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: capitalize;
-opacity: 0.3;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  opacity: 0.3;
+}
+
+.visoual{
+  border-radius: 573.121px;
+background: rgba(217, 217, 217, 0.32);
+filter: blur(263.8500061035156px);
+transform: rotate(36.572deg);
 }

@@ -153,33 +153,46 @@ const Pagetwo = () => {
 
     
     return (
-        <div className='container mx-auto px-[24px] sm:px-[40px] md:px-[64px] lg:px-[96px] xl:px-[128px] 2xl:px-[178px]'>
-          <h1 className='p2fltracker text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px] mt-[68px] sm:mt-[108px] md:mt-[128px] lg:mt-[138px] xl:mt-[158px] 2xl:mt-[170px]'>Flacon Tracker </h1>
-          <h2 className='p2howit text-center text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px]'>How It Works?</h2>
+        <div id='HowItWorks' className=' relative'>
+          <svg className='w-1/2 absolute left-0 top-0' viewBox="0 0 1016 1034" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_f_4_118)">
+          <ellipse cx="204.901" cy="280.551" rx="354.133" ry="134.789" transform="rotate(36.5717 204.901 280.551)" fill="#D9D9D9" fill-opacity="0.26"/>
+          </g>
+          <defs>
+          <filter id="filter0_f_4_118" x="-606.005" y="-471.949" width="1621.81" height="1505" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur stdDeviation="257.65" result="effect1_foregroundBlur_4_118"/>
+          </filter>
+          </defs>
+          </svg>
+          <div className='container mx-auto px-[24px] sm:px-0 xl:px-[128px] 2xl:px-[178px]'>
+            <h1 className='p2fltracker text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px] pt-[68px] sm:pt-[108px] md:pt-[128px] lg:pt-[138px] xl:pt-[158px] 2xl:pt-[170px]'>Flacon Tracker </h1>
+            <h2 className='p2howit text-center text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px]'>How It Works?</h2>
 
-          <div className='grid grid-cols-3 gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[31px] p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]'>
+            <div className='grid grid-cols-1 sm:grid-cols-3 gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[31px] p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]'>
 
           <div>
              <div className="p2cardd p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]">
-             <h3 className="connectto ">Connect to <br /> Telegram</h3>
-             <Image src={image8} alt="Image"  className="mx-auto h-[36px] sm:h-[40px] md:h-[48px] lg:h-[64px] xl:h-[105px] 2xl:h-[113px] w-[36px] sm:w-[40px] md:w-[48px] lg:w-[64px] xl:w-[105px] 2xl:w-[113px]  mt-[20px] sm:mt-[24px] md:mt-[32px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[44px] mb-[24px] sm:mb-[32px] md:mb-[36px] lg:mb-[40px] xl:mb-[48px] 2xl:mb-[70px]" />
-             <p className="addfa ">Add Flacon Tracker to <br /> your Telegram.</p>
+              <h3 className="connectto text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[32px]">Connect to <br /> Telegram</h3>
+              <Image src={image8} alt="Image"  className="mx-auto h-[36px] sm:h-[40px] md:h-[48px] lg:h-[64px] xl:h-[105px] 2xl:h-[113px] w-[36px] sm:w-[40px] md:w-[48px] lg:w-[64px] xl:w-[105px] 2xl:w-[113px]  mt-[20px] sm:mt-[24px] md:mt-[32px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[44px] mb-[24px] sm:mb-[32px] md:mb-[36px] lg:mb-[40px] xl:mb-[48px] 2xl:mb-[70px]" />
+              <p className="addfa text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] ">Add Flacon Tracker to <br /> your Telegram.</p>
             </div>
             </div>
 
            <div>
              <div className="p2cardd p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]">
-             <h3 className="connectto ">Set Your <br /> Parameters</h3>
-             <Image src={image9} alt="Image"  className="mx-auto h-[36px] sm:h-[40px] md:h-[48px] lg:h-[64px] xl:h-[105px] 2xl:h-[113px] w-[36px] sm:w-[40px] md:w-[48px] lg:w-[64px] xl:w-[105px] 2xl:w-[113px]  mt-[20px] sm:mt-[24px] md:mt-[32px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[44px] mb-[24px] sm:mb-[32px] md:mb-[36px] lg:mb-[40px] xl:mb-[48px] 2xl:mb-[70px]" />
-             <p className="addfa ">Customize your tracking  <br /> preferences.</p>
+              <h3 className="connectto text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[32px]">Set Your <br /> Parameters</h3>
+              <Image src={image9} alt="Image"  className="mx-auto h-[36px] sm:h-[40px] md:h-[48px] lg:h-[64px] xl:h-[105px] 2xl:h-[113px] w-[36px] sm:w-[40px] md:w-[48px] lg:w-[64px] xl:w-[105px] 2xl:w-[113px]  mt-[20px] sm:mt-[24px] md:mt-[32px] lg:mt-[36px] xl:mt-[40px] 2xl:mt-[44px] mb-[24px] sm:mb-[32px] md:mb-[36px] lg:mb-[40px] xl:mb-[48px] 2xl:mb-[70px]" />
+              <p className="addfa text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] ">Customize your tracking  <br /> preferences.</p>
             </div>
             </div>
 
             <div>
              <div className="p2cardd p-[20px] sm:p-[24px] md:p-[32px] lg:p-[36px] xl:p-[40px] 2xl:p-[45px]">
-             <h3 className="connectto ">Receive Alerts</h3>
-             <Image src={image10} alt="Image"  className="mx-auto h-[36px] sm:h-[40px] md:h-[48px] lg:h-[64px] xl:h-[105px] 2xl:h-[113px] w-[36px] sm:w-[40px] md:w-[48px] lg:w-[64px] xl:w-[105px] 2xl:w-[113px]  mt-[60px] sm:mt-[64px] md:mt-[70px] lg:mt-[75px] xl:mt-[80px] 2xl:mt-[89px] mb-[24px] sm:mb-[32px] md:mb-[36px] lg:mb-[40px] xl:mb-[48px] 2xl:mb-[70px]" />
-             <p className="addfa ">Get real-time notifications<br /> on trending launches.</p>
+              <h3 className="connectto text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[32px]">Receive Alerts</h3>
+              <Image src={image10} alt="Image"  className="mx-auto h-[36px] sm:h-[40px] md:h-[48px] lg:h-[64px] xl:h-[105px] 2xl:h-[113px] w-[36px] sm:w-[40px] md:w-[48px] lg:w-[64px] xl:w-[105px] 2xl:w-[113px]  mt-[60px] sm:mt-[64px] md:mt-[70px] lg:mt-[75px] xl:mt-[80px] 2xl:mt-[89px] mb-[24px] sm:mb-[32px] md:mb-[36px] lg:mb-[40px] xl:mb-[48px] 2xl:mb-[70px]" />
+              <p className="addfa text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] ">Get real-time notifications<br /> on trending launches.</p>
             </div>
             </div>
             
@@ -187,7 +200,7 @@ const Pagetwo = () => {
 
 
           </div>
-
+          </div>
         </div>
     );
 };
