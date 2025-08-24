@@ -187,8 +187,7 @@ const Footer = () => {
                  <svg className="absolute left-[22%] top-[71.5%]" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                      <path d="M1.09766 22.1025L23.5977 12.3525L1.09766 2.60254V10.1025L16.0977 12.3525L1.09766 14.6025V22.1025Z" fill="white"/>
                  </svg>
-
-                   </form>
+               </form>
   
               </div>
                   <div className='flex duration-1000 z-[999] sm:opacity-100 sm:justify-between items-start sm:items-center gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[32px] mr-[84px]'>
@@ -199,9 +198,7 @@ const Footer = () => {
                         </svg>
                     <a className="cursor-pointer Link-manu-bar flex items-center gap-[6px] lg:gap-[8px]" href="#Features" onClick={(e) => handleScroll(e, "Features")}>
                     Privacy policy </a>
-                        
-
-                   </div>
+                  </div>
              </div>      
 
         </div>
