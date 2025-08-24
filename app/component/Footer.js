@@ -115,7 +115,7 @@ const Footer = () => {
     console.log("Submitted email:", email);
   };
     return (
-        <div className='footrbkgrnd'>
+        <div className='footrbkgrnd container mx-auto'>
           <div className='flex p-9 justify-between'>
 
             <div>
