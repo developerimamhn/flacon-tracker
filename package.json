@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/oxide": "^4.1.4",
     "chart.js": "^4.4.9",

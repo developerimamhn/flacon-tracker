@@ -94,7 +94,7 @@ const NavBar = () => {
 
     return (
         <div className={` header ${scrolled ? "scrolled" : " "}  w-full header backgronsdvg  ${
-            isVisible ? "translate-y-0 transition-transform duration-300" : "-translate-y-full transition-transform duration-300"
+            isVisible ? "translate-y-0 transition-transform duration-300" : "-translate-y-full transition-transform duration-300 pb-6"
         }`}>
             
             <header className='navbg px-[24px] sm:px-0 container mx-auto  flex justify-between items-center py-[12px] sm:py-[14px] lg:py-[16px] relative  sm:overflow-hidden'>
@@ -115,7 +115,7 @@ const NavBar = () => {
                     </div>
                 </div>
                 <Link onClick={(e) => handleScrollToTop(e, "")} href='/' className='cursor-pointer flex items-center Froggo-Logo h-[20px] sm:h-[24px] 2xl:h-[28px]'>
-                <Image className='w-full h-[28px] sm:h-[37px] 2xl:h-[55.3px]' src={logo} alt=''/></Link>
+                <Image className='w-full h-[28px] sm:h-[25px] md:h-[37px] 2xl:h-[55.3px]' src={logo} alt=''/></Link>
 
                 <nav ref={menuRef} className={`navbar-items-main absolute sm:top-0 top-[100%] sm:left-0 sm:relative duration-1000 z-[999] sm:opacity-100 flex justif-start sm:justify-between items-start sm:items-center gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[32px] sm:bg-transparent bg-[#000000] sm:flex-row flex-col w-full sm:w-fit h-screen sm:h-full ml-auto mr-[14px] sm:mr-[15px] md:mr-[16px] lg:mr-[20px] xl:mr-[24px] 2xl:mr-[32px] sm:p-0 p-6
                     ${toggle ? 'left-[0]' :'left-[120%]' }
@@ -149,7 +149,7 @@ const NavBar = () => {
                 </nav>
                 
                 <ul className='sm:block hidden'>
-                    <button className='buttonaudit cursor-pointer text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] flex items-center h-[36px] md:h-[40px] lg:h-[44px] xl:h-[48px] 2xl:h-[54px] px-[15px] sm:px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[30px] group gap-[7.50px]'>
+                    <button className='buttonaudit cursor-pointer text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14.1px] flex items-center h-[30px] md:h-[40px] lg:h-[44px] xl:h-[48px] 2xl:h-[54px] px-[15px] sm:px-[16px] md:px-[20px] lg:px-[24px] xl:px-[28px] 2xl:px-[30px] group gap-[7.50px]'>
                     Contact
                     </button>
                 </ul>
